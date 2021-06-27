@@ -1,8 +1,8 @@
-from myApp.views import helloworldview
+from myApp.views import helloworld
 from django.contrib import admin
 from django.urls import path
-from .views import helloworldview
+from .views import helloworld
 
 urlpatterns = [
-    path('', helloworldview),
+    path('', helloworld),
 ]
